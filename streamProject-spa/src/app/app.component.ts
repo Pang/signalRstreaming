@@ -44,27 +44,23 @@ export class AppComponent implements OnInit {
   }
   addData(chart, data) {
     chart.data.datasets.forEach((dataset) => {
-      dataset.data.push(data);
+      data.forEach(x => {
+        dataset.data.shift(x);
+      });
+    });
+
+    chart.data.datasets.forEach((dataset) => {
+      data.forEach(x => {
+        dataset.data.push(x);
+      });
     });
     chart.update();
-  }
-
-  removeData(chart) {
-    if (chart.data.labels.length > 25) {
-      console.log(chart.data.datasets);
-      chart.data.datasets.forEach((dataset) => {
-        //dataset.data.shift();
-        chart.data.labels.shift();
-      });
-      chart.update();
-    }
   }
 
   streamData() {
     this.connection.on("Item", data => {
       console.log(data);
       this.addData(this.lineChart, data);
-      this.removeData(this.lineChart);
     });
   }
 }
