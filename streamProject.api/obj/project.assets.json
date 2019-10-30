@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TG1650\\.nuget\\packages\\": {},
+    "C:\\Users\\cPango\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj",
+      "projectUniqueName": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj",
       "projectName": "streamProject.api",
-      "projectPath": "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj",
-      "packagesPath": "C:\\Users\\TG1650\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\streamProject\\streamProject.api\\obj\\",
+      "projectPath": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj",
+      "packagesPath": "C:\\Users\\cPango\\.nuget\\packages\\",
+      "outputPath": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\TG1650\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cPango\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

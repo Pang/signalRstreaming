@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\streamProject\\DataClient\\DataClient.csproj": {}
+    "D:\\CodeProjects\\signalRstreaming\\DataClient\\DataClient.csproj": {}
   },
   "projects": {
-    "C:\\Development\\streamProject\\DataClient\\DataClient.csproj": {
+    "D:\\CodeProjects\\signalRstreaming\\DataClient\\DataClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\streamProject\\DataClient\\DataClient.csproj",
+        "projectUniqueName": "D:\\CodeProjects\\signalRstreaming\\DataClient\\DataClient.csproj",
         "projectName": "DataClient",
-        "projectPath": "C:\\Development\\streamProject\\DataClient\\DataClient.csproj",
-        "packagesPath": "C:\\Users\\TG1650\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\streamProject\\DataClient\\obj\\",
+        "projectPath": "D:\\CodeProjects\\signalRstreaming\\DataClient\\DataClient.csproj",
+        "packagesPath": "C:\\Users\\cPango\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeProjects\\signalRstreaming\\DataClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TG1650\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cPango\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
