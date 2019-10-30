@@ -15,9 +15,15 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.connection.start().then(() => console.log("Connection Started"))
       .catch(err => console.log("error: " + err));
-    setTimeout(() => {
-      this.streamData();
-    }, 100);
+
+      this.connection.on("Itemz", data => {
+        console.log("test1");
+        this.initialiseData(this.lineChart, data);
+      });
+      setTimeout(() => {
+        this.streamData();
+      }, 1000);
+
 
     this.lineChart = new Chart('myChart', {
       type: 'line',
@@ -40,14 +46,14 @@ export class AppComponent implements OnInit {
         }
       }
     })
-
   }
-  addData(chart, data) {
-    chart.data.datasets.forEach((dataset) => {
-      data.forEach(x => {
-        dataset.data.shift(x);
-      });
-    });
+
+  initialiseData(chart, data) {
+    // chart.data.datasets.forEach((dataset) => {
+    //   data.forEach(x => {
+    //     dataset.data.shift(x);
+    //   });
+    // });
 
     chart.data.datasets.forEach((dataset) => {
       data.forEach(x => {
@@ -57,9 +63,20 @@ export class AppComponent implements OnInit {
     chart.update();
   }
 
+  addData(chart, data) {
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.shift();
+    });
+
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data);
+    });
+    chart.update();
+  }
+
   streamData() {
     this.connection.on("Item", data => {
-      console.log(data);
+      console.log("test2");
       this.addData(this.lineChart, data);
     });
   }
