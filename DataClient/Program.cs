@@ -9,7 +9,7 @@ namespace DataClient
     {
         static async Task Main(string[] args)
         {
-            var connection = new HubConnectionBuilder().WithUrl("http://localhost:5000/streamHub").Build();
+            await using var connection = new HubConnectionBuilder().WithUrl("http://localhost:5000/streamHub").Build();
 
             await connection.StartAsync();
 

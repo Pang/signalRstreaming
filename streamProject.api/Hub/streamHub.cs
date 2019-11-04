@@ -12,8 +12,8 @@ namespace streamProject.api.Hub
         {
             await Clients.Caller.SendAsync("Itemz", NumberBank.bank);
             System.Console.WriteLine("connected with: " + NumberBank.bank.Count);
-
         }
+
         public async Task Pump(ChannelReader<int> incoming)
         {
             while (await incoming.WaitToReadAsync())

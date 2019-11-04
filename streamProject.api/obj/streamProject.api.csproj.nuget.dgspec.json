@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj": {}
+    "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj": {}
   },
   "projects": {
-    "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj": {
+    "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj",
+        "projectUniqueName": "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj",
         "projectName": "streamProject.api",
-        "projectPath": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\streamProject.api.csproj",
-        "packagesPath": "C:\\Users\\cPango\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeProjects\\signalRstreaming\\streamProject.api\\obj\\",
+        "projectPath": "C:\\Development\\streamProject\\streamProject.api\\streamProject.api.csproj",
+        "packagesPath": "C:\\Users\\TG1650\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\streamProject\\streamProject.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cPango\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TG1650\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
